@@ -6,6 +6,7 @@ void ascendingSort(Node**);
 void decendingSort(Node**);
 Node* MergerTwoLL(Node **,Node**);
 
+
 void Sort(Node** head){
     int choice;
     cout<<"Which Order Do you want to sort the LinkedList?\n1. Ascending\n2. Decending"<<endl;
@@ -23,11 +24,12 @@ void Sort(Node** head){
     }
 
 }
-
+// todo: implementation
 void ascendingSort(Node** head){
 
 }
 
+// todo : implementation
 void decendingSort(Node** head){
     
 }

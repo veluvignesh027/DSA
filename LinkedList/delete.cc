@@ -2,6 +2,7 @@
 #include "main.h"
 #endif
 bool removeBegin(Node **);
+
 void Delete(Node **head)
 {
     int pos;
@@ -34,6 +35,7 @@ void Delete(Node **head)
     cout<<"Invalid Position!"<<endl;
 }
 
+// sub function used to remove the first node.
 bool removeBegin(Node **head)
 {
     Node *temp = *head;

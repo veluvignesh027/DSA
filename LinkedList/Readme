@@ -1,0 +1,8 @@
+This LinkedList has all the operations done on a Linked List.
+
+steps to run :
+    1. Install make and gcc/g++.
+    2. open terminal and go to the ../DSA/LinkedList path
+    3. make 
+    4. ./linked_list
+    

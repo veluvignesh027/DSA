@@ -3,6 +3,7 @@
     #include "main.h"
 #endif
 #include <iostream>
+
 void Display(Node* head){
     if(head == NULL){
         std::cout << "End of List(NULL)" << std::endl;
@@ -11,6 +12,7 @@ void Display(Node* head){
     std::cout << head->data << "->";
     Display(head->next);
 }
+
 void CountNodes(Node *head){
     int noOfNodes =0;
     while(head != NULL){

@@ -6,6 +6,7 @@ bool insertAtBegin(Node**,int);
 bool insertAtEnd(Node**,int);
 bool insertAtPos(Node**,int,int);
 
+
 void Insert(Node **head){
     int data,choice;
     cout<<endl<<"Enter the Data You Want to INSERT : ";
@@ -38,7 +39,7 @@ void Insert(Node **head){
 
 }
 
-
+// sub function to insert at begining
 bool insertAtBegin(Node **head,int data){
     if(*head == NULL){
         *head = new Node(data);
@@ -48,6 +49,7 @@ bool insertAtBegin(Node **head,int data){
     *head = new Node(data,*head);
     return true;
 }
+// sub function to insert at end
 bool insertAtEnd(Node **head,int data){
     if(*head==NULL){
         *head = new Node(data);
@@ -62,6 +64,7 @@ bool insertAtEnd(Node **head,int data){
     iter->next = new Node(data);
     return true;
 }
+// sub function to insert at a specific position
 bool insertAtPos(Node **head,int pos,int data){
     if(pos ==1)
     {

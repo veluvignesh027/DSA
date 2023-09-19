@@ -2,6 +2,7 @@
 #include "main.h"
 #endif
 
+// Main driver function having the menu kind of driver to drive the program.
 int main()
 {
     Node *head = NULL;

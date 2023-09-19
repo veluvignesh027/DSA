@@ -1,6 +1,7 @@
 #ifndef MAIN_H
     #include "main.h"
 #endif
+
 bool InsertBegin(Node **head,int data){
     if(*head == NULL){
         *head = new Node(data);
@@ -10,6 +11,7 @@ bool InsertBegin(Node **head,int data){
     *head = new Node(data,*head);
     return true;
 }
+
 void Reverse(Node **head){
     Node *temp = NULL;
 
